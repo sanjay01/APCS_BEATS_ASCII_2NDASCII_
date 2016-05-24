@@ -1,0 +1,46 @@
+Code for EarSketch Beats:
+
+#        python code
+#
+#        script_name: Opus 1
+#
+#        author: The EarSketch Team
+#
+#        description: Using multiple fitMedia calls, on different tracks and with different clips.
+#
+#
+#
+
+# Setup Section
+from earsketch import * 
+
+init() 
+setTempo(98) 
+
+# Music Section
+
+
+#fitMedia is for music AUDIO FILE then place a comma then the next number is for the ROW you are working on then the next number is for where you want to start on the ROW, the next number is where you END your beat.
+
+#bells to add: Y26_BELL_1  ,  
+
+
+
+
+fitMedia(YG_TRAP_SHORT_SYNTH_1
+,1,3,7)
+
+fitMedia(Y24_BELL_1,2,1,18)
+
+fitMedia(YG_TRAP_BASS_5,3,7,29)
+
+fitMedia(RD_TRAP_DRUM_PART_17,4,11,25)
+
+fitMedia(RD_TRAP_MAIN808_BEAT_7,5,11,25)
+fitMedia(RD_TRAP_DRUM_PART_17,6,25,35)
+fitMedia(YG_TRAP_BASS_5,7,29,37)
+fitMedia(Y12_GUN_1,8,35,36)
+fitMedia(Y12_GUN_1,9,35.5,37)
+
+
+finish()
